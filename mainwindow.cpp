@@ -249,6 +249,7 @@ void MainWindow::switchLED()
         ui->ledLabel->setStyleSheet("background-color: #ff0000; border-radius: 20px;");
         ledOnElapsedTimer.invalidate();
         dispUpdateTimer->stop();
+        lastElapsedMs = 0;
         break;
     }
 }
