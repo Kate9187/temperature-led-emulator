@@ -159,6 +159,7 @@ void MainWindow::on_LedOnPB_clicked()
     }
     else{
         controlLedMode = AUTO;
+        ledController();
     }
 }
 
@@ -175,6 +176,7 @@ void MainWindow::on_LedOffPB_clicked()
     }
     else{
         controlLedMode = AUTO;
+        ledController();
     }
 }
 
